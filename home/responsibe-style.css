@@ -1,0 +1,42 @@
+/*-----------------------------------------------
+                header part style
+------------------------------------------------
+------------------------------------------------*/
+@media all and (max-width:991px){
+	
+	.header-bottom h2{
+		font-size:35px;
+	}
+}
+@media all and (max-width:712px){
+	
+	.header-bottom h2{
+		font-size:30px;
+	}
+	.main-menu ul li a{
+		padding:5px 15px;
+	}
+}
+@media all and (max-width:614px){
+	
+	.header-bottom h2{
+		font-size:25px;
+	}
+	.main-menu ul li a{
+		padding:5px 10px;
+	}
+}
+
+@media all and (max-width:557px){
+	
+	.header-bottom h2{
+		font-size:22px;
+	}
+}
+
+@media all and (max-width:458px){
+	
+	.header-bottom h2{
+		font-size:20px;
+	}
+}

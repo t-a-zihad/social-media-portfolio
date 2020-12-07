@@ -1,0 +1,220 @@
+/*whole-page*/
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+/*header section:- content set*/
+
+header{
+	width:100%;
+	background:linear-gradient(#4d68a1,#47639e,#3e5b99,#3b5998) ;
+}
+header div.fb-icon{
+	width:60%;
+	float:left;
+	margin-top: 32px;
+}
+header div.log-in-to-social{
+	width:40%;
+	float:left;
+	margin:7px 0;
+}
+header div.log-in-to-social form div.inputting-email_or_phone-number{
+	float:left;
+	width:30%;
+	margin-right:10px;
+	
+}
+ header div.log-in-to-social form div.inputting-email_or_phone-number:after{
+	content:"";
+	display:block;
+	clear: both;
+} 
+ header div.log-in-to-social form div.inputting-password{
+	float: left;
+	width:30%;
+	margin-right:10px;
+} 
+header div.log-in-to-social form div.inputting-password:after{
+	content:"";
+	display:block;
+	clear: both;
+}
+header:after{
+	content:"";
+	display:block;
+	clear: both;
+} 
+
+/*header section:- fb-icon*/
+header div.fb-icon a{
+	margin-left: 100px;
+}
+
+/*header section:- fb-log_in*/
+header div.log-in-to-social form label{
+	color:white;
+	
+	font-size: 15px;
+	font-family: inherit;
+	font-weight: normal;
+}
+header div.log-in-to-social form input{
+	font-size: 15px;
+	width:142px;
+	margin: 7px 0 0 0;
+	padding:2px;
+	border: 1px solid black;
+}
+header div.log-in-to-social form input[type="submit"]{
+	font-size: 12px;
+	width:48px;
+	height:24px;
+	margin: 24px 0 0 0;
+	padding:2px;
+	border: 1px solid #29487d;
+	background:#4267b2;
+	color:white;
+}
+header div.log-in-to-social form input[type="submit"]:hover{
+	background:#365899;
+}
+
+header div.log-in-to-social form div.inputting-password a {
+	color: #9cabcc;
+	text-decoration: none;
+	font-size: 14px;
+	
+}
+header div.log-in-to-social form div.inputting-password a:hover{
+	color:;
+	text-decoration:underline;
+}
+
+/*main-content:-total*/
+
+section.main-content div.content{
+	width: 996px;
+	margin:auto;
+}
+
+
+/*main-content:-left side*/
+section.main-content{
+	background: linear-gradient(#fefefe,#d3d8e8);
+	
+}
+section.main-content:after{
+	content:"";
+	display:block;
+	clear: both;
+}
+
+section.main-content div.connected_people_photo {
+	width:55%;
+	float:left;
+	margin-right:20px;
+}
+
+section.main-content div.connected_people_photo h1{
+	color:#0e385f;
+	font-weight:bold;
+	font-size: 22px;
+	line-height: 29px;
+	margin-top: 40px;
+	width: 450px;
+	word-spacing: -1px;
+}
+
+
+
+
+
+/*main-content:-right-side(regestrationfrom area)*/
+section.main-content div.social_regestration_form {
+	width:42%;
+	float:left;
+}
+
+section.main-content div.social_regestration_form h1{
+	font-size:36px;
+	margin:24px 2px 0px 2px;
+}
+section.main-content div.social_regestration_form h2{
+	color: #1d2129;
+	font-size: 19px;
+	font-weight:350;
+	margin:7px 2px 0px 2px;
+}
+
+
+ section.main-content div.content div.social_regestration_form div.birthday div.b-day h2.bb-day{
+	color: #1d2129;
+	font-size: 18px;
+	font-weight: normal;
+	margin:7px 2px 7px 2px;
+}
+
+
+
+
+
+/*reg-form*/
+
+section.main-content .social_regestration_form form input{
+    font-size: 14pt;
+    font-family: tahoma;
+    display: block;
+    width: 90%;
+    padding: 8px 10px;
+    margin: 10px;
+    border: 1px solid #d4d9e8;
+    background: #ffffff;
+    box-sizing: border-box;
+	border-radius: 5px;
+	font-weight:normal;
+}
+section.main-content .social_regestration_form form .name input:nth-child(1){
+    width: 45%;
+    display: inline-block;
+    float: left;
+    margin-right: 1px;
+}
+section.main-content .social_regestration_form form .name input:nth-child(2){
+    width: 45%;
+    display: inline-block;
+    float: left;
+     font-family: tahoma;
+    margin-left: 1px;
+}
+section.main-content .social_regestration_form form select{
+    font-size: 11pt;
+    padding: 4px;
+	margin-right: -4px;
+	float:left;
+}
+.b-day{
+    width: 80%;
+    margin-left: 10px;
+}
+section.main-content .social_regestration_form form .choose-gender input[type="radio"]{
+    display: inline-block;
+    margin: 25px 0px 20px 10px;
+    width: 5%;
+}
+
+section.main-content .social_regestration_form form .choose-gender label{
+    font-family: tahoma;
+    font-size: 14pt;
+}
+
+section.main-content .social_regestration_form form input[type="submit"]{
+    width: 50%;
+    height: 50px;
+    font-weight: 900;
+    border: outset #d4d9e8 5px;
+    
+}
+

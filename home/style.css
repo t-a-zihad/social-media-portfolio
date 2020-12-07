@@ -1,0 +1,748 @@
+/*||||||Full body*/
+
+body{
+	font-family:inherit;
+}
+
+a:hover{
+	text-decoration:none;
+}
+
+.box-for-uploading-img{
+	padding:10px;
+}
+
+
+/*Framework*/
+.float-left{
+	float:left;
+}
+.float-right{
+	float:right;
+}
+.after:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+.d-inline-b{
+	display:inline-block;
+}
+/*=========================================================================================================
+///////////////////////////////////////////////////////////////////////////////////////////////////////////
+****************************************Header-part style*************************************************
+///////////////////////////////////////////////////////////////////////////////////////////////////////////
+=========================================================================================================*/
+header.fb-header{
+	background:#4267b2;
+	padding:7px 0;
+}
+
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@-|---Logo part---|-@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+.fb-ic-search{
+	padding:5px 60px 5px 0px;
+}
+
+.icon svg{
+	font-size:30px;
+	color:#fff;
+	float:right;
+}
+
+.form{
+	padding:0;
+	margin:0;;
+	
+}
+.form input{
+	height:28px;
+	border-radius:1px;
+}
+.search-icon{
+	height:28px;
+	border-radius:1px;
+}
+.search-icon svg{
+	color:#555;
+}
+
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@-|---menu part---|-@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+.menu ul{
+	padding:0;
+	margin:0;
+}
+.menu ul.link >li{
+	padding:0px 5px;
+}
+.menu ul li >a{
+	color:#fff;
+}
+.menu img.profile-pic{
+	height:28px;
+	width:28px;
+	border-radius:50%;
+	margin:0px 5px;
+}
+
+div.dropdown button{
+	padding-left:5px;
+}
+.menu ul li a svg{
+	font-size:20px;
+	color:#000;
+}
+
+
+
+
+
+
+
+
+
+
+/*=========================================================================================================
+///////////////////////////////////////////////////////////////////////////////////////////////////////////
+****************************************left-side style*************************************************
+///////////////////////////////////////////////////////////////////////////////////////////////////////////
+=========================================================================================================*/
+/*info*/
+section.main-content{
+	background:#e9ebee;
+}
+
+section.main-content .left-side{
+	padding:5px;
+}
+
+section.main-content .user-info{
+	margin:15px 0 15px 17px;
+}
+section.main-content .user-info a{
+	color:#34363C;
+}
+
+section.main-content .user-info img.profile-pic{
+	height:25px;
+	width:25px;
+	border-radius:50%;
+	margin:0px 5px;
+}
+
+
+/*current*/
+.current-situation{
+	padding:0;
+	margin:0 0 0 17px;
+	background:transparent;
+	border:none;
+}
+.current-situation a{
+	padding:3px 0 3px 32px;
+	color:#61656a;
+	font-weight:500;
+	background:transparent;
+	
+	border:none;
+}
+
+.current-situation a span{
+	background:#fa3e3e;
+	height:8px;
+	width:8px;
+	border-radius:50%;
+	margin-right:5px;
+}
+.current-situation a.active{
+	color:#373b42;
+	background:#f5f6f7;
+	font-weight:bold;
+}
+
+
+/*shortcuts*/
+.shcut{
+	padding:10px 0;
+}
+.shcut h6{
+	margin:0 0 0 20px;
+	color:#636972;
+	font-weight:bold;
+	font-size:15px;
+	
+}
+.shcut-item{
+	padding:0;
+	margin:0 0 0 17px;
+	background:transparent;
+	border:none;
+}
+.shcut-item a{
+	padding:3px 0 3px 32px;
+	color:#3b4047;
+	font-weight:500;
+	background:transparent;
+	
+	border:none;
+}
+
+.shcut-item a span{
+	margin-right:5px;
+	color:#a8acb2;
+	font-size:12px;
+}
+
+/*explore*/
+.explore{
+	padding:10px 0;
+}
+.explore h6{
+	margin:0 0 0 20px;
+	color:#636972;
+	font-weight:bold;
+	font-size:15px;
+	
+}
+.explore-item{
+	padding:0;
+	margin:0 0 0 17px;
+	background:transparent;
+	border:none;
+}
+.explore-item a{
+	padding:3px 0 3px 32px;
+	color:#3b4047;
+	font-weight:500;
+	background:transparent;
+	
+	border:none;
+}
+
+.explore-item a span{
+	margin-right:5px;
+	color:#a8acb2;
+	font-size:12px;
+}
+
+.explore-item a.smore{
+	color:#5c75a9;
+}
+
+
+
+/*=========================================================================================================
+///////////////////////////////////////////////////////////////////////////////////////////////////////////
+****************************************main content style*************************************************
+///////////////////////////////////////////////////////////////////////////////////////////////////////////
+=========================================================================================================*/
+.content{
+	padding:0;
+}
+
+/*Create Post*/
+.cpost{
+	margin:12px 5px 6px 5px;
+	background:#fff;
+	border:1px solid #dddfe2;
+	border-radius:5px;
+}
+.cpost .title{
+	background:#f5f6f7;
+	border-bottom:1px solid #dddfe2;
+}
+.cpost h6{
+	color:#4b4f56;
+	font-size:13px;
+	font-weight:bold;
+	padding:7px 5px;
+	
+	margin:0;
+	border-radius:5px;
+	
+}
+.cpost-coont{
+	border-bottom:1.5px solid #dddfe2;
+	
+}
+.cpost-a{
+	
+	padding-right: 12px;
+
+	padding-left: 12px;
+}
+.cpost-coont .u-img{
+	
+	padding: 15px 0px;
+	margin-right:5px;
+	float:left;
+	
+}
+.cpost-coont .u-img img.profile-pic{
+	height:45px;
+	width:45px;
+	border-radius:50%;
+	
+}
+.cpost-coont .u-spe{
+	width:84%;
+	padding: 26px 8px;
+	float:left;
+	height: 90px;
+	margin-bottom:1px;
+}
+
+.cpost-coont textarea{
+	padding:0;
+	width:100%;
+	border:none;
+	height: 55px;
+}
+
+.cpost-opt{
+	padding:3px 15px;
+}
+
+.cpost-opt a{
+	padding:5px 10px;
+	background:#f5f6f7;
+	margin:2px;
+	border-radius:15px;
+	color:#4b4f56;
+	
+}
+
+input.cpoat-submit{
+	float:right;
+	padding:0;
+	font-size:16px;
+	padding: 1px 10px;
+	display:none;
+}
+
+
+/*posted content*/
+.posted-news-feed{
+	margin:12px 5px 6px 5px;
+	background:#fff;
+	border:1px solid #dddfe2;
+	border-radius:5px;
+}
+
+.posted-user-info{
+	padding:10px 5px;
+}
+
+.posted-user-info .posted-user-pic{
+	padding:0px 5px;
+}
+
+.posted-user-info img.profile-pic-posted-user{
+	height:45px;
+	width:45px;
+	border-radius:50%;
+	
+}
+
+.posted-user-info a{
+	font-size:17px;
+	font-weight:bold;
+	color:#385898!important;
+	padding:2px;
+	margin:0;
+}
+
+.posted-user-info h6{
+	margin:0;
+	font-size:13px;
+	padding:2px 3px;
+	color:#737880;
+}
+
+.mr-info >button{
+	margin:0;
+	padding:0;
+}
+
+
+
+
+
+.posted-content p{
+	padding:5px 10px;
+	margin:0;
+	width:100%;
+}
+
+.posted-content img.posted-image{
+	width:100%;
+	border-top:1px solid #dddfe2;
+	border-bottom:1px solid #dddfe2;
+}
+
+.posted-news-feed .public-review{
+	margin:0px 10px;
+	padding:10px 0;
+	border-bottom:1px solid #dddfe2;
+}
+
+
+.posted-news-feed .public-review .reacts-icon{
+	position:relative;
+
+}
+.posted-news-feed .public-review .reacts-icon .like-icon{
+	position:absolute;
+	left:0px;
+	top:3px;
+	z-index:3;
+	color:blue;
+	font-size:17px
+}
+.posted-news-feed .public-review .reacts-icon .wow-icon{
+	position:absolute;
+	left:13px;
+	top:3px;
+	z-index:2;
+	color:yellow;
+	font-size:17px
+}
+.posted-news-feed .public-review .reacts-icon .love-icon{
+	position:absolute;
+	left:26px;
+	top:3px;
+	z-index:1;
+	color:red;
+	font-size:17px
+}
+.reacts-count{
+	position:absolute;
+	left:77px;
+	color:#93989e;
+	font-size:15px;
+}
+
+.comen{
+	color:#71777f;
+	font-size:15px;
+}
+
+.user-review{
+	width:100%;
+}
+
+
+
+.user-review .user-review-opt{
+	border:none;
+	
+}
+.user-review .user-review-opt button{
+	border:none;
+	width:33%;
+	color:#666d76;
+}
+.user-review .user-review-opt button svg{
+	margin-right:5px;
+	color:#666d76;
+}
+
+
+
+
+
+
+
+.lefted-comm{
+	margin:5px;
+	display:none;
+}
+
+.clefted-user-info{
+	padding:10px 5px;
+}
+
+.clefted-user-info .clefted-user-pic{
+	padding:0px 5px;
+}
+
+.clefted-user-info img.profile-pic-clefted-user{
+	height:35px;
+	width:35px;
+	border-radius:50%;
+	
+}
+.clefted-user-name_comm{
+	width:70%;
+	background:#e9ebee;
+	padding:10px;
+	border-radius:10px;
+}
+.clefted-user-info a{
+	font-size:17px;
+	font-weight:bold;
+	color:#385898!important;
+	padding:2px;
+	margin:0;
+}
+.clefted-user-info input{
+	border-radius:5px;
+}
+.clefted-user-info p{
+	margin:0;
+	font-size:13px;
+	padding:2px 3px;
+	color:#000;
+}
+.clefted-user-info h6.ins{
+	color:#90949c;
+	font-size: 9px;
+	margin:0;
+	padding:3px;
+}
+/*=========================================================================================================
+///////////////////////////////////////////////////////////////////////////////////////////////////////////
+****************************************right-part style*************************************************
+///////////////////////////////////////////////////////////////////////////////////////////////////////////
+=========================================================================================================*/
+.right-side{
+	padding:0;;
+}
+/*Suggested person*/
+.suggested-persons{
+	padding:7px;
+	margin-top:10px;
+	background: #fff;
+	border: 1px solid #dddfe2;
+	border-radius: 5px;
+}
+.suggested-persons .suggested-persons-title> h6 {
+
+    color: #4b4f56;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 0px 0px;
+    margin: 0;
+    border-radius: 5px;
+
+}
+.suggested-persons .suggested-persons-title> a{
+	font-size:14px;
+}
+.suggested-persons-shown .suggested-user-opt button{
+	border:1px solid #4b4f56;
+	padding:0px 8px;
+	font-size:14px;
+	color: #4b4f56;
+	text-align: center;
+	background:#f5f6f7;
+	font-family: inherit;
+}
+.suggested-user-info{
+	padding:10px 5px;
+}
+
+.suggested-user-info .suggested-user-pic{
+	padding:0px 5px;
+}
+
+.suggested-user-info img.profile-pic-suggested-user{
+	height:60px;
+	width:60px;
+	border-radius:50%;
+	
+}
+
+.suggested-user-info a{
+	font-size:17px;
+	font-weight:bold;
+	color:#385898!important;
+	padding:2px;
+	margin:0;
+}
+
+.suggested-user-info h6{
+	margin:0;
+	font-size:13px;
+	padding:2px 3px;
+	color:#737880;
+}
+
+.mr-info >button{
+	margin:0;
+	padding:0;
+}
+
+
+/*Sponsored*/
+.sponsored{
+	padding:7px;
+	margin-top:10px;
+	background: #fff;
+	border: 1px solid #dddfe2;
+	border-radius: 5px;
+}
+.sponsored .sponsored-title> h6 {
+
+    color: #4b4f56;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 0px 0px;
+    margin: 0;
+    border-radius: 5px;
+
+}
+.sponsored .sponsored-title> a{
+	font-size:14px;
+}
+.sponsored-shown a{
+	margin:5px auto;
+	display:block;
+	width:90%;
+	
+}
+.sponsored-shown a >h5{
+	font-size:15px;
+	margin-top:10px;
+	margin-bottom:0;
+}
+.sponsored-shown a >h6{
+	font-size:14px;
+}
+
+
+
+
+/*group*/
+.group{
+	padding:7px;
+	margin-top:10px;
+	background: #fff;
+	border: 1px solid #dddfe2;
+	border-radius: 5px;
+}
+.group .group-title> h6 {
+
+    color: #4b4f56;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 0px 0px;
+    margin: 0;
+    border-radius: 5px;
+
+}
+.group .group-title> a{
+	font-size:14px;
+}
+.group-shown div.group-name{
+	margin:5px auto;
+	display:block;
+	width:97%;
+	border:1px solid #dddfe2;
+	border-radius: 5px;
+}
+
+.group-shown div.group-name img{
+	width:100%;
+}
+.group-shown a >h5{
+	font-size:15px;
+	margin-top:10px;
+	margin-bottom:0;
+}
+.group-shown a >h6{
+	font-size:14px;
+}
+.group-shown .gdes{
+	width:65%;
+}
+.group-shown .gdes a{
+	font-size:17px;
+	font-weight:bold;
+	color:#385898!important;
+	padding:4px;
+	margin:0;
+}
+.group-shown .gdes h6{
+	margin:0;
+	font-size:13px;
+	padding:2px 6px;
+	color:#737880;
+}
+
+.group-shown .gopt{
+	width:33%;
+	padding:10px 0;
+}
+.group-shown .gopt button{
+	border:1px solid #4b4f56;
+	padding:0px 8px;
+	font-size:14px;
+	color: #4b4f56;
+	text-align: center;
+	background:#f5f6f7;
+	font-family: inherit;
+}
+
+.group-shown{
+	margin-bottom:10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*=========================================================================================================
+///////////////////////////////////////////////////////////////////////////////////////////////////////////
+****************************************active-person-part style*************************************************
+///////////////////////////////////////////////////////////////////////////////////////////////////////////
+=========================================================================================================*/
+.active-persons{
+		padding:0;
+}
+.active-persons-shown{
+	border-left:1px solid #cccccc;
+	height:100%;
+	margin-left:10px;
+}
+
+.active-user-info {
+	margin: 0px 0 0px 3px;
+	padding-top:10px;
+}
+.active-user-info a{
+	color: #34363C;
+}
+
+.active-user-info a img.active-profile-pic{
+	height: 35px;
+	width: 35px;
+	border-radius: 50%;
+	margin: 0px 5px;
+}
+.active-user-info span{
+	color: #a8acb2;
+	font-size: 12px;
+}
+
+
+
+
+.show-last img{
+	width:95%;
+	margin:auto;
+}
+
+
+
+
+
+
+
+
+
